@@ -1,230 +1,336 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Expires" content="Fri, Jan 01 1900 00:00:00 GMT">
-        <meta http-equiv="Pragma" content="no-cache">
-        <meta http-equiv="Cache-Control" content="no-cache">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="Lang" content="en">
-        <meta name="author" content="">
-        <meta http-equiv="Reply-to" content="@.com">
-        <meta name="generator" content="PhpED 8.0">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="creation-date" content="09/06/2012">
-        <meta name="revisit-after" content="15 days">
-        <title>اسم الخدمة | الرئيسية</title>
-        <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-rtl.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <script type="text/javascript" src="assets/jquery/jquery.min.js"></script>
-        <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="assets/sly/plugins.js"></script>
-        <script type="text/javascript" src="assets/sly/sly.min.js"></script>
-        <script type="text/javascript" src="assets/sly/sly.runner.js"></script>
-        <script type="text/javascript" src="main.js"></script>
-    </head>
-    <body>
-
-
-
-
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-
-                <form role="form">
-
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title nice_font" id="myModalLabel">تسجيل الدخول</h4>
-                        </div>
-                        <div class="modal-body">
-
-
-                            <div class="form-group">
-                                <label for="email">إسم المستخدم / البريد</label>
-                                <input type="email" class="form-control" id="email" placeholder="إسم المستخدم / البريد">
-                            </div>
-                            <div class="form-group">
-                                <label for="password">كلمة المرور</label>
-                                <input type="password" class="form-control" id="password" placeholder="كلمة المرور">
-                            </div>
-
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> حفظ تسجيل الدخول
-                                </label>
-                            </div>
-
-                        </div>
-                        <div class="modal-footer text-left">
-                            <button type="submit" class="btn btn-primary">تسجيل الدخول</button>
-                        </div>
-                    </div>
-
-                </form>
-            </div>
-        </div>    
-
-
-        <div class="container">
-
-            <div class="row header_rainbow">
-                <div class="col-xs-2 c-1"></div>
-                <div class="col-xs-2 c-2"></div>
-                <div class="col-xs-2 c-3"></div>
-                <div class="col-xs-2 c-4"></div>
-                <div class="col-xs-2 c-5"></div>
-                <div class="col-xs-2 c-6"></div>
-
-            </div>
-
-
-            <div class="row" id="header">
-
-                <div class="col-sm-8">
-                    <img class="img-responsive" src="images/images/logo.png" border="0" />
-                </div>
-
-                <div class="col-sm-4" id="header_left">
-
-                    <ul class="social_icons">
-                        <li><a href="#"><img class="img-responsive" src="images/icons/facebook.png" border="0" /></a></li>
-                        <li><a href="#"><img class="img-responsive" src="images/icons/googleplus.png" border="0" /></a></li>
-                        <li><a href="#"><img class="img-responsive" src="images/icons/twitter.png" border="0" /></a></li>
-                        <li><a href="#"><img class="img-responsive" src="images/icons/youtube.png" border="0" /></a></li>
-                    </ul>
-
-                    <a href="#" class="btn btn-success btn-lg nice_font login_button" data-toggle="modal" data-target="#myModal">تسجيل الدخول</a>
-
-                </div>                          
-
-            </div>
-
-
-
-            <div class="wrap" id="home-slider-container"  style="direction: ltr;" dir="ltr">
-
-                <div style="overflow: hidden;" class="frame" id="smart">
-                    <ul class="clearfix">                                
-                        <li style="background-image:url('images/images/scroll/1.jpg');"></li>                                                    
-                        <li style="background-image:url('images/images/scroll/2.jpg');"></li>                                                    
-                        <li style="background-image:url('images/images/scroll/3.jpg');"></li>                                                    
-                        <li style="background-image:url('images/images/scroll/4.jpg');"></li>                                                    
-                        <li style="background-image:url('images/images/scroll/5.jpg');"></li>                                                    
-                    </ul>
-                </div>
-
-                <ul class="pages"></ul>    
-
-            </div>            
-
-
-
-
-            <div class="features row">
-
-                <div class="col-sm-4 c-1">
-
-                    <h2 class="nice_font"><i class="fa fa-bolt"></i> ميزة رقم 1</h2>
-                    <h4 class="nice_font">وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات </h4>
-
-                </div>
-
-
-                <div class="col-sm-4 c-2">
-
-                    <h2 class="nice_font"><i class="fa fa-tachometer"></i> ميزة رقم 1</h2>
-                    <h4 class="nice_font">وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات </h4>
-
-                </div>
-
-
-
-                <div class="col-sm-4 c-3">
-
-                    <h2 class="nice_font"><i class="fa fa-lock"></i> ميزة رقم 1</h2>
-                    <h4 class="nice_font">وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات وصف المميزات </h4>
-
-                </div>                                
-
-
-            </div>
-
-
-
-
-
-
-            <div class="reg_now">            
-
-                <a href="#" class="btn btn-lg btn-primary nice_font"><i class="fa fa-trophy"></i> اشترك الآن و استمتع بشهر مجاناً</a>
-
-            </div>
-
-
-
-            <div class="footer">
-
-                <div class="row">
-
-                    <div class="col-sm-6">
-
-                        <h3 class="nice_font">روابط هامة</h3>
-
-                        <div class="row">
-
-                            <div class="col-sm-6">
-                                <ul class="important_links">
-                                    <li><a href="#">الإتصال بنا</a></li>
-                                    <li><a href="#">عن الخدمة</a></li>
-                                    <li><a href="#">مركز المساعدة</a></li>
-                                    <li><a href="#">الإعلانات</a></li>                                
-                                </ul>                        
-                            </div>
-
-                            <div class="col-sm-6">
-                                <ul class="important_links">
-                                    <li><a href="#">سياسة الخصوصية</a></li>
-                                    <li><a href="#">الشروط والأحكام</a></li>
-                                    <li><a href="#">خريطة الموقع</a></li>
-                                    <li><a href="#">مركز التحميلات</a></li>                                
-                                </ul>                        
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-6 text-left">                
-                        <img  src="images/images/footer_logo.png" border="0" />                
-                    </div>
-
-                </div>
-
-
-
-                <div class="copyrights nice-font-2">
-                    <div class="row">                            
-                        <div class="col-sm-6 copy-text">جميع الحقوق محفوظة &copy;</div>
-                        <div class="col-sm-6 design-by">تصميم : <a href="http://khashabawy.com" class="tahoma-font">khashabawy.com</a></div>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-
-
-
-
-
-
-        </div>
-
-    </body>
+<head>
+	<title>Arab Shop</title>
+<!--
+Conquer Template
+http://www.templatemo.com/tm-476-conquer
+-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+			</div>   
+			<div class="single-page-nav sticky-wrapper" id="tmNavbar">
+				<ul class="nav navbar-nav">
+				<li><a href="https://avascript.net/items/102/%D9%83%D9%88%D9%86%D9%83%D8%B1---%D9%82%D8%A7%D9%84%D8%A8-html-%D9%84%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%82%D8%B9" class="external" target="_blank">تحميل القالب</a></li>
+					<li><a href="#section4">اتصل بنا</a></li>
+					<li><a href="#section3">الخدمات</a></li>
+					<li><a href="#section2">من نحن</a></li>
+					<li><a href="#section1">الرئيسية</a></li>
+				</ul>
+			</div>   
+		</div>
+	</nav>    
+
+	<div id="section1">
+		<header id="header-area" class="intro-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<div class="header-content">
+							<h1>كونكر</h1>
+							<br />
+							<h4>قالب هتمل متعدد الأستخدامات</h4>
+							
+							</br></br>
+<a href="/conquer/en" class="feature-content-link blue-btn" style="
+    font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif!important;
+">english</a>
+							</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+	<div id="section2">
+		<!-- Start Feature Area -->
+		<section id="feature-area" class="about-section">
+			<div class="container">
+				<div class="row text-center inner">
+					<div class="col-sm-4">
+						<div class="feature-content">
+							<img src="img/1-1.jpg" alt="Image">
+							<h2 class="feature-content-title green-text">بوتستراب</h2>
+							<p class="feature-content-description">هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .
+							</p>
+							<a href="#" class="feature-content-link green-btn">زر اخضر</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature-content">
+							<img src="img/1-2.jpg" alt="Image">
+							<h2 class="feature-content-title blue-text">متجاوب</h2>
+							<p class="feature-content-description"> هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .</p>                    
+							<a href="#" class="feature-content-link blue-btn">زر ازرق</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature-content">
+							<img src="img/1-3.jpg" alt="Image">
+							<h2 class="feature-content-title red-text">بيكسلر</h2>
+							<p class="feature-content-description">هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .
+							</p>
+							<a href="#" class="feature-content-link red-btn">زر احمر</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Feature Area -->
+
+		<!-- Start Blog Area -->
+		<section id="blog-area">
+			<div class="container">
+				<div class="row text-center inner">
+					<div class="col-sm-6">
+						<div class="blog-content">
+							<img src="img/2-1.jpg" alt="Image">
+							<h2>عمودين - جانب ايسر</h2>
+							<p>هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .<br><br>
+								هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .</p>
+								<span><a href="#">اقرأ المزيد</a></span><br>
+								<br>
+
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="blog-content">
+								<img src="img/2-2.jpg" alt="Image">
+								<h2>عمودين - جانب أيمن</h2>
+								<p>هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .<br><br>
+								هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .</p>
+									<span><a href="#">اقرأ المزيد</a></span><br>
+									<p id="blofr"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End Blog Area -->
+			</div>
+			<div id="section3">
+				<!-- Start Services Area -->
+				<section id="services-area" class="services-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center inner our-service">
+								<div class="service">
+									<h1>خدماتنا</h1>
+									<p>هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة  <br>
+										هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله <br>
+										هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- End Services Area -->
+
+					<!-- Start Testimornial Area -->
+					<section id="testimornial-area">
+						<div class="container">
+							<div class="row text-center">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+									<div class="testimonial-content">
+										<img src="img/4-1.jpg" alt="Image">
+										<h2>الخيار الأول</h2>
+<p>هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة</p>										<br>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+									<div class="testimonial-content">
+										<img src="img/4-2.jpg" alt="Image">
+										<h2>الخيار الثانى</h2>
+<p>هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة</p>										<a href="#" class="content-link">قراءة</a>
+										<br>
+										<p id="redd"></p>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+									<div class="testimonial-content">
+										<img src="img/4-3.jpg" alt="Image">
+										<h2>الخيار الثالث</h2>
+<p>هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة</p>										<br>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+									<div class="testimonial-content">
+										<img src="img/4-4.jpg" alt="Image">
+										<h2>الخيار الرابع</h2>
+										<p>هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة</p>
+										<a href="#" class="content-link">التفاصيل</a>
+										<br>
+										<p id="dets"></p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="tm-box">
+										<img src="img/4-5.jpg" alt="Image" class="img-responsive">
+										<div class="tm-box-description">
+											<h2>عمود واحد كبير</h2>
+											<p class="tm-box-p">هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .</p>
+											<p class="tm-box-p">هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة .</p>
+											<a href="#" class="content-link">قراءة المزيد</a>    
+										</div>                        
+									</div>                    
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- End Testimornial Area -->
+				</div>
+				<div id="section4">
+					<!-- Start Contact Area -->
+					<section id="contact-area" class="contact-section">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12 text-center inner">
+									<div class="contact-content">
+										<h1>اتصل بنا</h1>
+										<div class="row">                            
+											<div class="col-sm-12">
+												<p>هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة , هذا نص يمكن استبداله فى نفس المكان<br>
+													هذا نص يمكن استبداله فى نفس المكان وفى نفس المساحة<br>
+													هذا نص يمكن استبداله فى نفس المكان</p>
+												</div>                            
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-12">
+										<form action="#" method="post" class="contact-form">
+											<div class="col-sm-6 contact-form-left">
+												<div class="form-group">
+													<input name="name" type="text" class="form-control" id="name" placeholder="الأسم">
+												  	<input type="email" name="email" class="form-control" id="mail" placeholder="البريد الالكترونى">
+													<input name="subject" type="text" class="form-control" id="subject" placeholder="عنوان الرسالة">
+												</div>
+											</div>
+											<div class="col-sm-6 contact-form-right">
+												<div class="form-group">
+													<textarea name="message" rows="6" class="form-control" id="comment" placeholder="ما هى رسالتك ..."></textarea>
+													<button type="submit" class="btn btn-default">ارسال</button>
+												</div>
+											</div>                        
+										</form>    
+									</div>                
+								</div>
+							</div>
+						</section>
+						<!-- End Contact Area -->
+					</div>
+
+					<!-- Start Footer Area -->
+					<footer id="footer-area">
+						<div class="container">
+							<div class="row text-center">
+								<div class="col-sm-12">
+									<div class="footer-content">
+										<h1>استخدمه فهو مجانى</h1>
+										<p>“كونكر قالب بوتستراب مجانى ولا يسمح ببيعه. 
+											<br>القالب غير مخصص للاستخدام التجارى”</p>
+										</div>                
+									</div>
+								</div>
+							</div>
+							<hr>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">             
+										<p class="copy">Copyright © 2084 conquer 
+                                        
+                                        | تم تطويره بواسطة: <a rel="nofollow" href="https://avascript.net/user/Esmail_saeed/" target="_parent">اسماعيل سعيد</a></p>
+									</div>
+								</div>
+							</div>
+						</footer>
+						<!-- End Footer Area -->
+
+						<script src="js/jquery-1.11.2.min.js"></script>
+						<script src="js/jquery.scrollUp.min.js"></script> <!-- https://github.com/markgoodyear/scrollup -->
+						<script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
+						<script src="js/parallax.js-1.3.1/parallax.js"></script> <!-- http://pixelcog.github.io/parallax.js/ -->
+						<script>
+
+    // HTML document is loaded. DOM is ready.
+    $(function() {  
+
+    // Parallax
+        $('.intro-section').parallax({
+        	imageSrc: 'img/bg-1.jpg',
+        	speed: 0.2
+        });
+        $('.services-section').parallax({
+        	imageSrc: 'img/bg-2.jpg',
+        	speed: 0.2
+    	});
+        $('.contact-section').parallax({
+        	imageSrc: 'img/bg-3.jpg',
+        	speed: 0.2
+        });    
+
+        // jQuery Scroll Up / Back To Top Image
+        $.scrollUp({
+                scrollName: 'scrollUp',      // Element ID
+		        scrollDistance: 300,         // Distance from top/bottom before showing element (px)
+		        scrollFrom: 'top',           // 'top' or 'bottom'
+		        scrollSpeed: 1000,            // Speed back to top (ms)
+		        easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+		        animation: 'fade',           // Fade, slide, none
+		        animationSpeed: 300,         // Animation speed (ms)		        
+		        scrollText: '', // Text for element, can contain HTML		        
+		        scrollImg: true            // Set true to use image		        
+            });
+
+        // ScrollUp Placement
+        $( window ).on( 'scroll', function() {
+
+            // If the height of the document less the height of the document is the same as the
+            // distance the window has scrolled from the top...
+            if ( $( document ).height() - $( window ).height() === $( window ).scrollTop() ) {
+
+                // Adjust the scrollUp image so that it's a few pixels above the footer
+                $('#scrollUp').css( 'bottom', '80px' );
+
+            } else {      
+                // Otherwise, leave set it to its default value.
+                $('#scrollUp').css( 'bottom', '30px' );        
+            }
+        });
+
+        $('.single-page-nav').singlePageNav({
+        	offset: $('.single-page-nav').outerHeight(),
+        	speed: 1500,
+        	filter: ':not(.external)',
+        	updateHash: true
+        });
+
+        $('.navbar-toggle').click(function(){
+        	$('.single-page-nav').toggleClass('show');
+        });
+
+        $('.single-page-nav a').click(function(){
+        	$('.single-page-nav').removeClass('show');
+        });
+        
+    });
+</script>
+</body>
 </html>
