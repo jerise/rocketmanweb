@@ -13,13 +13,12 @@ width: 350px;
     color: white;
 }
 
-.android_title {
-    background:#3d8929;
+#android_title {
+    background:yellow;
 }
 
 .dars_title {
   height: 30px;
   text_align:center;
   padding-top:10px
-    color:white;
 }
