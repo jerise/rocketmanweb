@@ -25,9 +25,17 @@ width: 350px;
 
 
 .photo {
+           width:400px;
+             heigth:400px;
     position: absolute;
     top: 50%;
     left: 60%;
     transform: translate(-50%, -50%)
+      
+      
+      
+      
+      
+         style="width:400px:heigth:400px"
 
 
