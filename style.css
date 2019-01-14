@@ -1,40 +1,43 @@
 body {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
-
+ 
 .dars{
-    background:white; 
-width: 350px;
+  background:white;
+  width: 350px;
   height: 150px;
+  height: 100px;
+  position: absolute;
+  top: 22%;
+  left: 86.5%;
+  transform: translate(-50%, -50%)
 }
-
+ 
 #website_title{
     background:#2c3240;
     color: white;
 }
-
+ 
 #android_title {
     background:yellow;
 }
-
+ 
 .dars_title {
   height: 30px;
   text_align:center;
   padding-top:10px
 }
 
-
-.photo {
-           width:400px;
-             heigth:400px;
+.photo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 96.10%;
+    left: 96.4%;
+    transform: translate(-50%, -50%)
+        
+.button1{
     position: absolute;
     top: 50%;
     left: 60%;
     transform: translate(-50%, -50%)
-      
-      
-      
-      
-      
-
-
